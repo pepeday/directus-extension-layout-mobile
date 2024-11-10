@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # directus-extension-layout-mobile
 =======
 # Mobile Layout Directus Extension
@@ -22,4 +21,3 @@ Simply access your Directus instance from a mobile device, and the extension wil
 
 ## Support
 For help or customization, refer to Directus documentation or contact support.
->>>>>>> 988394f (First commit)

@@ -1,0 +1,9 @@
+# Ignore node modules
+node_modules/
+
+# Ignore build artifacts
+dist/
+
+# Ignore environment variables
+.env
+.DS_Store

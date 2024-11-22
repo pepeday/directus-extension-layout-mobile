@@ -306,27 +306,18 @@ export default defineComponent({
 }
 
 .grid {
-	display: grid;
-	gap: 16px;
-	padding: 16px;
-
-	// Limit the grid to a maximum of 2 columns with responsive resizing
-	grid-template-columns: repeat(2, 1fr);
-
-	// Ensure grid adapts to smaller screen sizes with a single column
-	@media (max-width: 900px) {
-		grid-template-columns: 1fr; // Single-column layout for smaller screens
-	}
+  display: grid;
+  gap: 8px; /* Reduced spacing between cards */
+  grid-template-columns: 1fr; /* Single column */
+  padding: 8px; /* Adjust padding around the grid if necessary */
 }
+
 
 .single-row .grid {
-	grid-template-columns: 1fr;
-	max-width: 100%;
-
-	.card {
-		max-width: 100%; // Ensure each card fills the container width
-	}
+  grid-template-columns: 1fr; /* Single-column layout */
+  max-width: 100%;
 }
+
 
 
 
